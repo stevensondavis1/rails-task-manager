@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  text-align: center;
+
+  /* Background image with full coverage */
+  background:
+    linear-gradient(rgba(129,145,140,0.6), rgba(129,145,140,0.6)), /* semi-transparent overlay */
+    url('https://comicvine.gamespot.com/a/uploads/scale_small/11/114183/5808074-rockbottom.jpg') no-repeat center center fixed;
+
+  background-size: cover; /* make sure it fills the screen */
+  color: white; /* text stands out */
+  font-family: 'Arial', sans-serif;
+}
